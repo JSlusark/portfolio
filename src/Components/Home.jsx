@@ -12,9 +12,9 @@ function Home() {
 					className="rounded-full"
 				/>
 				<div className="text-left">
-					<h1 className="text-7xl  font-bold">Hi,</h1>
-					<h1 className="text-8xl font-bold">I'm Jess</h1>
-					<h2 className="text-xl  m-1">
+					<h1 className="text-8xl  font-bold">Hi,</h1>
+					<h1 className="text-8xl  font-bold">I'm Jess</h1>
+					<h2 className="text-xl   m-1">
 						I'm a front end developer based in Berlin
 					</h2>
 				</div>
