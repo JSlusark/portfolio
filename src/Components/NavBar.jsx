@@ -1,19 +1,18 @@
 // TO FIX
 //cancelled hamburger menu from template by mistake! 🤦‍♀️
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
-
 import { Bars4Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function NavBar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<header className="bg-white">
+		<header className="bg-transparent md:bg-gray-400 fixed w-full top-0 z-5">
 			<nav
-				className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+				className="mx-auto flex justify-between p-5 "
 				aria-label="Global"
 			>
 				<div className="flex ml-auto md:hidden">
@@ -24,45 +23,47 @@ export default function NavBar() {
 					>
 						<FontAwesomeIcon
 							icon={icon({ name: "burger", style: "solid" })}
-							className="text-2xl m-1"
+							className="text-2xl "
 						/>
 					</button>
 				</div>
-				<div className="hidden md:flex md:gap-x-12 ml-auto">
+				<div className="hidden md:flex gap-x-12 ml-auto">
 					<a
 						href="#home"
-						className="text-sm font-semibold leading-6 text-gray-900"
+						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400	"
 					>
 						Home
 					</a>
 					<a
 						href="#work"
-						className="text-sm font-semibold leading-6 text-gray-900"
+						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400	"
 					>
 						Works
 					</a>
 					<a
 						href="#about"
-						className="text-sm font-semibold leading-6 text-gray-900"
+						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400"
 					>
 						About
 					</a>
 					<a
 						href="#contact"
-						className="text-sm font-semibold leading-6 text-gray-900"
+						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400"
 					>
 						Contact
 					</a>
 				</div>
 			</nav>
+
+			{/* Hamburger menu */}
 			<Dialog
 				as="div"
 				className="lg:hidden"
 				open={mobileMenuOpen}
 				onClose={setMobileMenuOpen}
 			>
-				<div className="fixed inset-0 z-10" />
-				<Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+				<div className="" />
+				<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 					<div className="flex items-center justify-between">
 						<a
 							href="#"
@@ -91,19 +92,19 @@ export default function NavBar() {
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className="space-y-2 py-4">
 								<a
-									href="#"
+									href="#work"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Work
 								</a>
 								<a
-									href="#"
+									href="#about"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									About
 								</a>
 								<a
-									href="#"
+									href="#contact"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Contact
