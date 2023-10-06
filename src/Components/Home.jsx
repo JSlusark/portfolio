@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
+import profilepic from "../img/profilepic.jpg";
 
 function Home() {
 	return (
@@ -10,9 +11,9 @@ function Home() {
 		>
 			<div className="flex items-center space-x-6">
 				<img
-					src="https://fakeimg.pl/200x200"
+					src={profilepic}
 					alt="Jess's Avatar"
-					className="rounded-full"
+					className="rounded-full h-52 w-52"
 				/>
 				<div className="text-left">
 					<h1 className="text-8xl  font-bold">Hi,</h1>
@@ -25,7 +26,7 @@ function Home() {
 			<div className="flex space-x-4 mt-2 ">
 				<a
 					href="https://www.linkedin.com/in/your-linkedin-profile"
-					className="text-gray-400 hover:text-purple-600"
+					className="text-gray-400 hover:text-amber-500	"
 				>
 					<FontAwesomeIcon
 						icon={icon({ name: "linkedin-in", style: "brands" })}
@@ -34,7 +35,7 @@ function Home() {
 				</a>
 				<a
 					href="https://github.com/your-github-username"
-					className="text-gray-400 hover:text-purple-600"
+					className="text-gray-400 hover:text-amber-500	"
 				>
 					<FontAwesomeIcon
 						icon={icon({ name: "github", style: "brands" })}
@@ -46,7 +47,7 @@ function Home() {
 						e.preventDefault();
 						window.open("mailto:slusark.jessica@gmail.com", "_blank");
 					}}
-					className="text-gray-400 hover:text-purple-600"
+					className="text-gray-400 hover:text-amber-500	"
 				>
 					<FontAwesomeIcon
 						icon={icon({ name: "envelope", style: "solid" })}
