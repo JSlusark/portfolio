@@ -2,7 +2,10 @@ import React from "react";
 
 function About() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800 p-6">
+		<div
+			id="about"
+			className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800 p-6"
+		>
 			<h1 className="text-4xl font-bold mb-6">About Me</h1>
 			<img
 				className="w-48 h-48 mb-6 rounded-full"

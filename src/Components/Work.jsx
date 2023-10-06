@@ -4,7 +4,10 @@ import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function Work() {
 	return (
-		<div className="bg-stone-300">
+		<div
+			id="work"
+			className="bg-stone-300"
+		>
 			<h1 className="p-9 text-7xl font-bold">Work</h1>
 
 			<div

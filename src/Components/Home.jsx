@@ -4,7 +4,10 @@ import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800">
+		<div
+			id="home"
+			className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800"
+		>
 			<div className="flex items-center space-x-6">
 				<img
 					src="https://fakeimg.pl/200x200"
