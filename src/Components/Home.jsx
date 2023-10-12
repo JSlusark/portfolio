@@ -1,9 +1,46 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons"; // for brands
+import { fas } from "@fortawesome/free-solid-svg-icons"; // for solid icons
 import profilepic from "../img/profilepic.jpg";
 
+library.add(fab, fas);
+
 function Home() {
+	let icons = [
+		{
+			icon: ["fab", "linkedin-in"],
+			link: "https://www.linkedin.com/in/jessicaslusark/",
+		},
+		{
+			icon: ["fab", "github"],
+			link: "https://github.com/your-github-username",
+		},
+		{
+			icon: ["fas", "envelope"],
+			link: "mailto:slusark.jessica@gmail.com",
+		},
+	];
+	let renderIcons = icons.map((item) => {
+		return (
+			<a
+				key={item.icon[1]} // Assuming each icon name is unique
+				onClick={(e) => {
+					e.preventDefault();
+					window.open(item.link, "_blank");
+				}}
+				className="text-gray-400 hover:text-amber-500	"
+			>
+				<FontAwesomeIcon
+					icon={item.icon}
+					className="text-4xl"
+				/>
+			</a>
+		);
+	});
+
 	return (
 		<div
 			id="home"
@@ -15,46 +52,13 @@ function Home() {
 					alt="Jess's Avatar"
 					className="rounded-full h-52 w-52"
 				/>
-				<div className="text-left">
-					<h1 className="text-8xl  font-bold">Hi,</h1>
-					<h1 className="text-8xl  font-bold">I'm Jess</h1>
-					<h2 className="text-xl   m-1">
-						I'm a front end developer based in Berlin
-					</h2>
+				<div>
+					<h1 className="text-8xl  font-bold">Jessica</h1>
+					<h1 className="text-8xl  font-bold">Slusark</h1>
+					<h2 className="text-xl   m-1">Front end developer based in Berlin</h2>
 				</div>
 			</div>
-			<div className="flex space-x-4 mt-2 ">
-				<a
-					href="https://www.linkedin.com/in/your-linkedin-profile"
-					className="text-gray-400 hover:text-amber-500	"
-				>
-					<FontAwesomeIcon
-						icon={icon({ name: "linkedin-in", style: "brands" })}
-						className="text-4xl"
-					/>
-				</a>
-				<a
-					href="https://github.com/your-github-username"
-					className="text-gray-400 hover:text-amber-500	"
-				>
-					<FontAwesomeIcon
-						icon={icon({ name: "github", style: "brands" })}
-						className="text-4xl"
-					/>
-				</a>
-				<a
-					onClick={(e) => {
-						e.preventDefault();
-						window.open("mailto:slusark.jessica@gmail.com", "_blank");
-					}}
-					className="text-gray-400 hover:text-amber-500	"
-				>
-					<FontAwesomeIcon
-						icon={icon({ name: "envelope", style: "solid" })}
-						className="text-4xl"
-					/>
-				</a>
-			</div>
+			<div className="flex space-x-4 mt-2 ">{renderIcons}</div>
 		</div>
 	);
 }
