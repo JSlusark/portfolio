@@ -35,7 +35,7 @@ function Home() {
 			>
 				<FontAwesomeIcon
 					icon={item.icon}
-					className="text-4xl"
+					className="text-4xl p-4 md:p-0 md:text-5xl md:ml-6 mr-0"
 				/>
 			</a>
 		);
@@ -44,21 +44,25 @@ function Home() {
 	return (
 		<div
 			id="home"
-			className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800"
+			className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800 px-4"
 		>
-			<div className="flex items-center space-x-6">
+			<div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
 				<img
 					src={profilepic}
 					alt="Jess's Avatar"
-					className="rounded-full h-52 w-52"
+					className="rounded-full h-52 w-52 md:h-64 md:w-64"
 				/>
-				<div>
-					<h1 className="text-8xl  font-bold">Jessica</h1>
-					<h1 className="text-8xl  font-bold">Slusark</h1>
-					<h2 className="text-xl   m-1">Front end developer based in Berlin</h2>
+				<div className="text-center md:text-left">
+					<h1 className="text-4xl md:text-8xl font-bold">Jessica</h1>
+					<h1 className="text-4xl md:text-8xl font-bold">Slusark</h1>
+					<h2 className="text-md md:text-3xl ">
+						Front end developer<span className="hidden md:inline"></span>
+						<br className="md:hidden" /> {""}
+						based in Berlin
+					</h2>
 				</div>
 			</div>
-			<div className="flex space-x-4 mt-2 ">{renderIcons}</div>
+			<div className="flex md:justify-start mt-4">{renderIcons}</div>
 		</div>
 	);
 }
