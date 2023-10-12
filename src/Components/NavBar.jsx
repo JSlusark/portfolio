@@ -9,6 +9,20 @@ import { Bars4Icon, XMarkIcon } from "@heroicons/react/24/outline";
 export default function NavBar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+	let menuItems = ["Home", "Work", "About", "Contact"];
+
+	let displayMenuItems = menuItems.map((item) => {
+		console.log(item);
+		return (
+			<a
+				href={`#${item.toLowerCase()}`}
+				className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400	"
+			>
+				{item}
+			</a>
+		);
+	});
+
 	return (
 		<header className="bg-transparent md:bg-gray-400 fixed w-full top-0 z-5">
 			<nav
@@ -28,30 +42,7 @@ export default function NavBar() {
 					</button>
 				</div>
 				<div className="hidden md:flex gap-x-12 ml-auto">
-					<a
-						href="#home"
-						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400	"
-					>
-						Home
-					</a>
-					<a
-						href="#work"
-						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400	"
-					>
-						Works
-					</a>
-					<a
-						href="#about"
-						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400"
-					>
-						About
-					</a>
-					<a
-						href="#contact"
-						className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400"
-					>
-						Contact
-					</a>
+					{displayMenuItems}
 				</div>
 			</nav>
 
