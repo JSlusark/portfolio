@@ -1,109 +1,83 @@
-// TO FIX
-//cancelled hamburger menu from template by mistake! 🤦‍♀️
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
-import { Bars4Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function NavBar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-	let menuItems = ["Home", "Work", "About", "Contact"];
+	const menuItems = ["Home", "Work", "About", "Contact"];
 
-	let displayMenuItems = menuItems.map((item) => {
-		console.log(item);
-		return (
+	const renderMenuItem = (item, isMobile = false) => (
+		<div className={isMobile ? "space-y-2 py-4" : ""}>
 			<a
 				href={`#${item.toLowerCase()}`}
-				className="text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400	"
+				onClick={() => {
+					if (isMobile) {
+						setMobileMenuOpen(false); // Close the mobile menu when a link is clicked
+					}
+				}}
+				className={
+					isMobile
+						? "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+						: "text-sm font-semibold leading-6 text-gray-900 hover:text-yellow-400"
+				}
 			>
 				{item}
 			</a>
-		);
-	});
+		</div>
+	);
 
 	return (
 		<header className="bg-transparent md:bg-gray-400 fixed w-full top-0 z-5">
 			<nav
-				className="mx-auto flex justify-between p-5 "
+				className="mx-auto flex justify-between p-5"
 				aria-label="Global"
 			>
 				<div className="flex ml-auto md:hidden">
 					<button
 						type="button"
-						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 bg-gray-400"
 						onClick={() => setMobileMenuOpen(true)}
 					>
 						<FontAwesomeIcon
 							icon={icon({ name: "burger", style: "solid" })}
-							className="text-2xl "
+							className="text-3xl"
 						/>
 					</button>
 				</div>
 				<div className="hidden md:flex gap-x-12 ml-auto">
-					{displayMenuItems}
+					{menuItems.map((item) => renderMenuItem(item))}
 				</div>
 			</nav>
 
-			{/* Hamburger menu */}
 			<Dialog
 				as="div"
 				className="lg:hidden"
 				open={mobileMenuOpen}
 				onClose={setMobileMenuOpen}
 			>
-				<div className="" />
-				<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-					<div className="flex items-center justify-between">
-						<a
-							href="#"
-							className="-m-1.5 p-1.5"
-						>
-							<a
-								href="#"
-								className="font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+				<>
+					<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+						<div className="flex items-center justify-between">
+							<button
+								type="button"
+								className="-m-2.5 rounded-md p-2.5 text-gray-700"
+								onClick={() => setMobileMenuOpen(false)}
 							>
-								Home
-							</a>
-						</a>
-						<button
-							type="button"
-							className="-m-2.5 rounded-md p-2.5 text-gray-700"
-							onClick={() => setMobileMenuOpen(false)}
-						>
-							<span className="sr-only">Close menu</span>
-							<XMarkIcon
-								className="h-6 w-6"
-								aria-hidden="true"
-							/>
-						</button>
-					</div>
-					<div className="mt-6 flow-root">
-						<div className="-my-6 divide-y divide-gray-500/10">
-							<div className="space-y-2 py-4">
-								<a
-									href="#work"
-									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>
-									Work
-								</a>
-								<a
-									href="#about"
-									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>
-									About
-								</a>
-								<a
-									href="#contact"
-									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>
-									Contact
-								</a>
-							</div>
+								<span className="sr-only">Close menu</span>
+								<XMarkIcon
+									className="h-6 w-6"
+									aria-hidden="true"
+								/>
+							</button>
 						</div>
-					</div>
-				</Dialog.Panel>
+						<div className="mt-6 flow-root">
+							{menuItems.map((item) => renderMenuItem(item, true))}
+						</div>
+					</Dialog.Panel>
+				</>
 			</Dialog>
 		</header>
 	);
