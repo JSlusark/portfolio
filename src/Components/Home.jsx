@@ -31,7 +31,7 @@ function Home() {
 					e.preventDefault();
 					window.open(item.link, "_blank");
 				}}
-				className="text-gray-400 hover:text-amber-500	"
+				className="text-gray-400 hover:text-custom-red 	"
 			>
 				<FontAwesomeIcon
 					icon={item.icon}
@@ -53,16 +53,16 @@ function Home() {
 					className="rounded-full h-52 w-52 md:h-64 md:w-64"
 				/>
 				<div className="text-center md:text-left">
-					<h1 className="text-4xl md:text-8xl font-bold">Jessica</h1>
-					<h1 className="text-4xl md:text-8xl font-bold">Slusark</h1>
-					<h2 className="text-md md:text-3xl ">
+					<h1 className="text-5xl md:text-8xl font-bold">Jessica</h1>
+					<h1 className="text-5xl md:text-8xl font-bold">Slusark</h1>
+					<h2 className="text-sm pl-1  text-left md:text-3xl  text-gray-500">
 						Front end developer<span className="hidden md:inline"></span>
 						<br className="md:hidden" /> {""}
 						based in Berlin
 					</h2>
 				</div>
 			</div>
-			<div className="flex md:justify-start mt-4">{renderIcons}</div>
+			<div className="flex md:justify-start mt-0">{renderIcons}</div>
 		</div>
 	);
 }

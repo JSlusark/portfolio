@@ -45,7 +45,7 @@ function About() {
 					</a>
 				</div>
 
-				<div className="grid grid-cols-1 gap-4 w-full mt-10 md:grid-cols-2">
+				<div className="grid grid-cols-1 gap-4 w-full m-20 md:grid-cols-2">
 					<div className="text-left">
 						<h2 className="text-2xl font-semibold">Skills</h2>
 						<div className="p-8">

@@ -91,11 +91,11 @@ function Work() {
 					<h1>{project.name}</h1>
 					<p className="text-left">{project.description}</p>
 					<p className="text-left">Made with: {project.madeWith}</p>
-					<div className="text-left">
+					<div className="text-left mt-10">
 						<a
 							href={project.link}
 							target="_blank"
-							className="text-gray-400 hover:text-amber-500   "
+							className="text-gray-400 hover:text-custom-red   "
 						>
 							<FontAwesomeIcon
 								icon={icon({ name: "link", style: "solid" })}
@@ -105,7 +105,7 @@ function Work() {
 						<a
 							href={project.github}
 							target="_blank"
-							className="text-gray-400 hover:text-amber-500    "
+							className="text-gray-400 hover:text-custom-red    "
 						>
 							<FontAwesomeIcon
 								icon={icon({ name: "github", style: "brands" })}
@@ -125,7 +125,6 @@ function Work() {
 		>
 			<div className="pt-12">
 				<h1 className=" text-7xl font-bold m-2">Work</h1>
-
 				<div className="inline-grid m-9 sm:grid-cols-1 md:grid-cols-3 gap-4">
 					{displayProjects}
 				</div>
