@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-tailwind",
-  "homepage": "https://jslusark.github.io/portfolio-tailwind/",
+  "name": "portfolio",
+  "homepage": "https://jslusark.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
