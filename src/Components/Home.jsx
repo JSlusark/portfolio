@@ -31,7 +31,7 @@ function Home() {
 					e.preventDefault();
 					window.open(item.link, "_blank");
 				}}
-				className="text-gray-400 hover:text-custom-red 	"
+				className="text-gray-400 hover:text-custom-red cursor-pointer	"
 			>
 				<FontAwesomeIcon
 					icon={item.icon}
@@ -44,7 +44,7 @@ function Home() {
 	return (
 		<div
 			id="home"
-			className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800 px-4"
+			className="flex flex-col items-center justify-center min-h-screen bg-stone-50 px-4"
 		>
 			<div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
 				<img

@@ -4,10 +4,12 @@ function About() {
 	return (
 		<div
 			id="about"
-			className="flex flex-col items-center justify-center min-h-screen bg-stone-200 text-gray-800 p-20"
+			className="flex flex-col items-center justify-center min-h-screen bg-stone-50 text-gray-800 p-20"
 		>
 			<div className="max-w-4xl px-10">
-				<h1 className="text-7xl font-bold mb-6 w-full text-center">About Me</h1>
+				<h1 className="text-8xl font-bold mb-10 w-full text-center">
+					About Me
+				</h1>
 				<div className="text-lg text-left space-y-4">
 					<p>
 						While growing up, I was consistently drawn to gaming, digital art,
@@ -39,16 +41,16 @@ function About() {
 					<a
 						href="file.pdf"
 						download
-						className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-40"
+						className="bg-rose-600 hover:bg-custom-red text-white font-bold py-2 px-4 rounded w-40"
 					>
 						Download CV
 					</a>
 				</div>
 
-				<div className="grid grid-cols-1 gap-4 w-full m-20 md:grid-cols-2">
-					<div className="text-left">
-						<h2 className="text-2xl font-semibold">Skills</h2>
-						<div className="p-8">
+				<div className="grid grid-cols-1 w-full md:grid-cols-2">
+					<div className="text-left bg-rose-50 p-8">
+						<h2 className="text-2xl font-semibold mb-3">Skills</h2>
+						<div className="">
 							<p className="font-semibold">Front-End:</p>
 							<p className=" mb-2">
 								HTML, CSS, Bootstrap, JavaScript, React.js / CRA, React Native,
@@ -69,7 +71,7 @@ function About() {
 							<p className=" mb-2">MongoDB, PostgreSQL, Mongoose, SQL</p>
 						</div>
 					</div>
-					<div className="text-left">
+					<div className="text-left ml-10">
 						<h2 className="text-2xl font-semibold">
 							On my free time I like to..
 						</h2>

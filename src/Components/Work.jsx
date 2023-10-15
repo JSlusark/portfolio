@@ -70,7 +70,7 @@ function Work() {
 			description:
 				"The Meet App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
 			madeWith:
-				"React / Create-React-App (CRA), CSS, JestCucumber,Puppeter, Atatus, Lighthouse,Recharts",
+				"React / Create-React-App (CRA), CSS, JestCucumber,Puppeteer, Atatus, Lighthouse,Recharts",
 			github: "https://jslusark.github.io/meet/",
 			link: "https://birdieber.github.io/meet/",
 		},
@@ -80,7 +80,7 @@ function Work() {
 		return (
 			<div
 				key={project.id}
-				className=" border-sky-500 "
+				className=""
 			>
 				<img
 					src={project.img}
@@ -121,10 +121,10 @@ function Work() {
 	return (
 		<div
 			id="work"
-			className="bg-stone-300 p-9 min-h-screen  "
+			className="bg-pink-50 p-9 min-h-screen  "
 		>
 			<div className="pt-12">
-				<h1 className=" text-7xl font-bold m-2">Work</h1>
+				<h1 className=" text-8xl font-bold mb-10 w-full text-center">Work</h1>
 				<div className="inline-grid m-9 sm:grid-cols-1 md:grid-cols-3 gap-4">
 					{displayProjects}
 				</div>
