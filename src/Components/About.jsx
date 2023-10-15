@@ -70,13 +70,20 @@ function About() {
 						</div>
 					</div>
 					<div className="text-left">
-						<h2 className="text-2xl font-semibold">On my free time</h2>
+						<h2 className="text-2xl font-semibold">
+							On my free time I like to..
+						</h2>
 						<ul className="p-8">
-							<li className=" mb-2">hobby</li>
-							<li className=" mb-2">hobby</li>
-							<li className=" mb-2">hobby</li>
-							<li className=" mb-2">hobby</li>
-							<li className=" mb-2">hobby</li>
+							<li className=" mb-2">👾 Play videogames</li>
+							<li className=" mb-2">✏️ Draw and make creative stuff</li>
+							<li className=" mb-2">👩🏻‍🎤 Read manga and watch anime</li>
+							<li className=" mb-2">🐱 Relax with my cats</li>
+							<li className=" mb-2">
+								🛼 Rollerskate, lift weights and do sports
+							</li>
+							<li className=" mb-2">
+								✨ Learn new things and find new hobbies
+							</li>
 						</ul>
 					</div>
 				</div>
