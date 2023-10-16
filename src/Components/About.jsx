@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../img/CV-Jessica_slusark.pdf";
 
 function About() {
 	return (
@@ -39,7 +40,7 @@ function About() {
 				</div>
 				<div className="text-left mt-5 mb-10">
 					<a
-						href="file.pdf"
+						href={cv}
 						download
 						className="bg-rose-600 hover:bg-custom-red text-white font-bold py-2 px-4 rounded w-40"
 					>
@@ -71,7 +72,7 @@ function About() {
 							<p className=" mb-2">MongoDB, PostgreSQL, Mongoose, SQL</p>
 						</div>
 					</div>
-					<div className="text-left ml-10">
+					<div className="text-left mt-8 ml-10">
 						<h2 className="text-2xl font-semibold">
 							On my free time I like to..
 						</h2>

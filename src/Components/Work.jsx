@@ -17,8 +17,8 @@ function Work() {
 			description:
 				"A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.",
 			madeWith: "HTML, CSS, JavaScript, jQuery, Bootstrap",
-			github: "https://jslusark.github.io/simple-js-app/",
-			link: "https://github.com/JSlusark/simple-js-app",
+			github: "https://github.com/JSlusark/Pokedex",
+			link: "https://jslusark.github.io/Pokedex/",
 		},
 
 		{
@@ -49,8 +49,8 @@ function Work() {
 			description:
 				"Single-page, responsive movie application which gives information about different movies, directors, and genres. Users are able to sign up, update their personal information, and add movies to their favorite list.",
 			madeWith: "Angular, Node.js, Angular Material",
-			github: "https://jslusark.github.io/myFlix-Angular-client/welcome",
-			link: "https://github.com/JSlusark/myFlix-Angular-client",
+			github: "https://github.com/JSlusark/myFlix-Angular-client",
+			link: "https://jslusark.github.io/myFlix-Angular-client/",
 		},
 		{
 			id: 4,
@@ -60,7 +60,7 @@ function Work() {
 				"A chat application for mobile devices that provides users with a chat interface and options to communicate, share images and their location.",
 			madeWith: "React, React Native, Expo, Google Firebase",
 			github: "https://github.com/JSlusark/chat",
-			link: "#",
+			link: "https://github.com/JSlusark/chat",
 		},
 
 		{
@@ -71,8 +71,8 @@ function Work() {
 				"The Meet App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
 			madeWith:
 				"React / Create-React-App (CRA), CSS, JestCucumber,Puppeteer, Atatus, Lighthouse,Recharts",
-			github: "https://jslusark.github.io/meet/",
-			link: "https://birdieber.github.io/meet/",
+			github: "https://github.com/JSlusark/meet",
+			link: "https://jslusark.github.io/meet/",
 		},
 	];
 
@@ -80,7 +80,7 @@ function Work() {
 		return (
 			<div
 				key={project.id}
-				className=""
+				className=" w-80 m-10"
 			>
 				<img
 					src={project.img}
@@ -88,10 +88,8 @@ function Work() {
 					className="p-4 block mx-auto"
 				/>
 				<div className="px-5 py-1">
-					<h1>{project.name}</h1>
-					<p className="text-left">{project.description}</p>
-					<p className="text-left">Made with: {project.madeWith}</p>
-					<div className="text-left mt-10">
+					<h1 className="font-semibold text-xl">{project.name}</h1>
+					<div className="mb-10">
 						<a
 							href={project.link}
 							target="_blank"
@@ -113,6 +111,8 @@ function Work() {
 							/>
 						</a>
 					</div>
+					<p className="text-left">{project.description}</p>
+					<p className="text-left">Made with: {project.madeWith}</p>
 				</div>
 			</div>
 		);
@@ -121,7 +121,7 @@ function Work() {
 	return (
 		<div
 			id="work"
-			className="bg-pink-50 p-9 min-h-screen  "
+			className="bg-stone-50 p-9 min-h-screen  "
 		>
 			<div className="pt-12">
 				<h1 className=" text-8xl font-bold mb-10 w-full text-center">Work</h1>
