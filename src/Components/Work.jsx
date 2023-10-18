@@ -80,7 +80,7 @@ function Work() {
 		return (
 			<div
 				key={project.id}
-				className=" w-80 m-10"
+				className="p-5 bg-pink-50 w-80 m-10"
 			>
 				<img
 					src={project.img}
