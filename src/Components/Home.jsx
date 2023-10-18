@@ -16,7 +16,7 @@ function Home() {
 		},
 		{
 			icon: ["fab", "github"],
-			link: "https://github.com/your-github-username",
+			link: "https://github.com/jslusark",
 		},
 		{
 			icon: ["fas", "envelope"],
@@ -31,6 +31,7 @@ function Home() {
 					e.preventDefault();
 					window.open(item.link, "_blank");
 				}}
+				href={`${item.link}`}
 				className="text-gray-400 hover:text-custom-red cursor-pointer	"
 			>
 				<FontAwesomeIcon
