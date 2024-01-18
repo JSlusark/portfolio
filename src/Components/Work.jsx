@@ -1,12 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 import pokedex from "../img/pokedex.png";
 import chatapp from "../img/chatapp.png";
 import meetapp from "../img/meetapp.png";
 import myflix from "../img/myflix.png";
 import mymovielist from "../img/mymovielist.png";
 import api from "../img/api.png";
+import ProjectTemplate from "./ProjectTemplate";
 
 function Work() {
 	let projects = [
@@ -76,48 +75,6 @@ function Work() {
 		},
 	];
 
-	const displayProjects = projects.map((project, key) => {
-		return (
-			<div
-				key={project.id}
-				className="p-5 bg-stone-50 w-80 m-10"
-			>
-				<img
-					src={project.img}
-					alt=""
-					className="p-4 block mx-auto"
-				/>
-				<div className="px-5 py-1">
-					<h1 className="font-semibold text-xl">{project.name}</h1>
-					<div className="mb-10">
-						<a
-							href={project.link}
-							target="_blank"
-							className="text-gray-400 hover:text-custom-red   "
-						>
-							<FontAwesomeIcon
-								icon={icon({ name: "link", style: "solid" })}
-								className="text-2xl m-1"
-							/>
-						</a>
-						<a
-							href={project.github}
-							target="_blank"
-							className="text-gray-400 hover:text-custom-red    "
-						>
-							<FontAwesomeIcon
-								icon={icon({ name: "github", style: "brands" })}
-								className="text-2xl m-1"
-							/>
-						</a>
-					</div>
-					<p className="text-left">{project.description}</p>
-					<p className="text-left">Made with: {project.madeWith}</p>
-				</div>
-			</div>
-		);
-	});
-
 	return (
 		<div
 			id="work"
@@ -125,8 +82,11 @@ function Work() {
 		>
 			<div className="pt-12">
 				<h1 className=" text-8xl font-bold mb-10 w-full text-center">Work</h1>
+
 				<div className="inline-grid m-9 sm:grid-cols-1 md:grid-cols-3 gap-4">
-					{displayProjects}
+					{projects.map((project, key) => {
+						return <ProjectTemplate project={project} />;
+					})}
 				</div>
 			</div>
 		</div>
