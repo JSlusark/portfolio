@@ -1,9 +1,8 @@
 import React from "react";
-import Work from "./Work";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 
-export default function ProjectTemplate({ project }) {
+export default function Projects({ project }) {
 	console.log(project);
 	return (
 		<div
@@ -21,7 +20,7 @@ export default function ProjectTemplate({ project }) {
 					<a
 						href={project.link}
 						target="_blank"
-						className="text-gray-400 hover:text-custom-red   "
+						className="text-gray-400 hover:text-custom-red   " rel="noreferrer"
 					>
 						<FontAwesomeIcon
 							icon={icon({ name: "link", style: "solid" })}
@@ -31,7 +30,7 @@ export default function ProjectTemplate({ project }) {
 					<a
 						href={project.github}
 						target="_blank"
-						className="text-gray-400 hover:text-custom-red    "
+						className="text-gray-400 hover:text-custom-red    " rel="noreferrer"
 					>
 						<FontAwesomeIcon
 							icon={icon({ name: "github", style: "brands" })}
