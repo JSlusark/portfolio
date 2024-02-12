@@ -8,47 +8,7 @@ import { Link } from "react-router-dom";
 export default function NavBar({ navigateToPage }) {
   // State variable for mobile menu open/close status.
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  // Menu items object for the navigation bar.
   const menuItems = ["Home", "Work", "About"];
-
-  // // Function to Render Menu Items
-  // const renderMenuItem = (item, isMobile = false) => {
-  //   //this determines the hyperlink for each menu item and mailto for contact link
-  //   const hrefValue = () => {
-  //     if (item === "Contact") {
-  //       return "mailto:slusark.jessica@gmail.com";
-  //     } else {
-  //       return "#" + item.toLowerCase();
-  //     }
-  //   };
-
-  //   // Renders the actual JSX for the menu item and changes based on whether it's mobile or desktop.
-  //   return (
-  //     <div className={isMobile ? "space-y-2 py-4" : ""}>
-  //       <a
-  //         href={`${hrefValue()}`}
-  //         onClick={(e) => {
-  //           // Log the clicked link for debugging.
-  //           console.log("Link clicked:", hrefValue());
-
-  //           // If on mobile, this closes the menu after link click.
-  //           if (isMobile) {
-  //             setMobileMenuOpen(false);
-  //           }
-  //         }}
-  //         // Conditional styling based on mobile/desktop.
-  //         className={
-  //           isMobile
-  //             ? "mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-  //             : "text-lg font-semibold leading-6 text-slate-300 hover:text-custom-red"
-  //         }
-  //       >
-  //         {item}
-  //       </a>
-  //     </div>
-  //   );
-  // };
 
   // Main return for the NavBar component
   return (
