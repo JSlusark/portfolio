@@ -19,11 +19,11 @@ function Work() {
   };
 
   return (
-    <div id="work" className="bg-stone-50 p-9 min-h-screen">
+    <div id="work" className=" min-h-screen">
       <div className="pt-12">
         <h1 className=" text-8xl font-bold mb-10 w-full text-center">Work</h1>
-        <div className="grid grid-cols-2">
-          <div>
+        <div className="grid grid-cols-5">
+          <div className="col-span-2">
             {projectsData.map((project, key) => {
               return (
                 <Projects
@@ -35,8 +35,11 @@ function Work() {
               );
             })}
           </div>
-          <div>
-            <ProjectDetails selectedProject={selectedProjectData} />
+          <div className="col-span-3">
+            <ProjectDetails
+              className=""
+              selectedProject={selectedProjectData}
+            />
           </div>
         </div>
       </div>

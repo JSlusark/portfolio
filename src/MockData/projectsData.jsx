@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "img": "pokedex",
+    "img": "../img/pokedex.png",
     "name": "Pokedex App",
     "description": "A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.",
     "github": "https://github.com/JSlusark/Pokedex",
@@ -12,7 +12,7 @@
 
   {
     "id": 1,
-    "img": "api",
+    "img": "/src/img/api.png",
     "name": "My Movie List API",
     "description": "REST API for a movie application called Movie Flix that interacts with a database that stores data about different movies.",
     "github": "https://github.com/JSlusark/Movie-API",
@@ -30,7 +30,7 @@
   },
   {
     "id": 2,
-    "img": "mymovielist",
+    "img": "/src/img/mymovielist.png",
     "name": "My Movie List (React)",
     "description": "Single-page, responsive movie application which gives information about different movies, directors, and genres. Users are able to sign up, update their personal information, and add movies to their favorite list.",
     "github": "https://github.com/JSlusark/MyFlix-client",
@@ -40,7 +40,7 @@
   },
   {
     "id": 3,
-    "img": "myflix",
+    "img": "/src/img/myflix.png",
     "name": "My Movie List (Angular)",
     "description": "Single-page, responsive movie application which gives information about different movies, directors, and genres. Users are able to sign up, update their personal information, and add movies to their favorite list.",
     "github": "https://github.com/JSlusark/myFlix-Angular-client",
@@ -50,7 +50,7 @@
   },
   {
     "id": 4,
-    "img": "chatapp",
+    "img": "/src/img/chatapp.png",
     "name": "ChatApp!",
     "description": "A chat application for mobile devices that provides users with a chat interface and options to communicate, share images and their location.",
     "github": "https://github.com/JSlusark/chat",
@@ -61,7 +61,7 @@
 
   {
     "id": 5,
-    "img": "meetapp",
+    "img": "/src/img/meetapp.png",
     "name": "Meet App",
     "description": "The Meet App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
     "github": "https://github.com/JSlusark/meet",

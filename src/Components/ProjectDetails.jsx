@@ -3,9 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function ProjectDetails({ selectedProject }) {
+  console.log(selectedProject.img);
   return (
-    <div className=" bg-stone-50 w-80 m-10">
-      {/* <img src={project.img} alt="" className="p-4 block mx-auto" /> */}
+    <div>
+      <img
+        // src={`${process.env.PUBLIC_URL}/img/${selectedProject.img}.png`}
+        src={require(`../img/${selectedProject.img}.png`)}
+        alt=""
+        className="p-4 block mx-auto"
+      />
       <div className="px-5 py-1">
         <h1 className="font-semibold text-xl">{selectedProject.name}</h1>
 
@@ -34,7 +40,19 @@ export default function ProjectDetails({ selectedProject }) {
           </a>
         </div>
         <p className="text-left">{selectedProject.description}</p>
-        <p className="text-left">Made with: {selectedProject.madeWith}</p>
+
+        <ul className="text-left">
+          {selectedProject.hashtags.map((hashtag, key) => {
+            return (
+              <li
+                key={key}
+                className="text-left m-1 inline rounded-md p-1 text-xs text-white bg-indigo-900"
+              >
+                #{hashtag}
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );

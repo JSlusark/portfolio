@@ -6,12 +6,15 @@ export default function Projects({ project, onSelected, selectedProjectId }) {
 
   return (
     <div
-      className={`${
-        project.id === selectedProjectId ? "bg-gray-500" : "bg-gray-100"
+      className={` p-2 m-2
+      ${
+        project.id === selectedProjectId
+          ? "bg-indigo-600"
+          : "bg-transparent border-1 border-indigo-950  hover:bg-indigo-950"
       }`}
       onClick={() => onSelected(project.id)}
     >
-      <h1 className="">{project.name}</h1>
+      <h1 className="text-">{project.name}</h1>
     </div>
   );
 }
