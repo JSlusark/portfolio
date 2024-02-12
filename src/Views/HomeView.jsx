@@ -53,10 +53,10 @@ function Home() {
           alt="Jess's Avatar"
           className="rounded-full h-52 w-52 md:h-64 md:w-64"
         />
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left text-indigo-100">
           <h1 className="text-5xl md:text-8xl font-bold">Jessica</h1>
           <h1 className="text-5xl md:text-8xl font-bold">Slusark</h1>
-          <h2 className="text-sm pl-1  text-left md:text-3xl  text-gray-500">
+          <h2 className="text-sm pl-1  text-left md:text-3xl  text-indigo-300">
             Front end developer<span className="hidden md:inline"></span>
             <br className="md:hidden" /> {""}
             based in Berlin

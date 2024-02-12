@@ -20,7 +20,7 @@ export default function NavBar({ navigateToPage }) {
             return (
               <Link
                 to={pageName.toLowerCase()}
-                className="text-lg font-semibold  text-indigo-400 hover:text-custom-red"
+                className="text-lg font-semibold  text-indigo-300 hover:text-custom-red"
               >
                 {pageName}
               </Link>
@@ -30,7 +30,7 @@ export default function NavBar({ navigateToPage }) {
             href="mailto:slusark.jessica@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="text-lg font-semibold  text-indigo-400 hover:text-custom-red"
+            className="text-lg font-semibold  text-indigo-300 hover:text-custom-red"
           >
             Contact
           </a>
