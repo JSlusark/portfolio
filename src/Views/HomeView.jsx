@@ -8,7 +8,7 @@ import profilepic from "../img/profilepic.jpg";
 
 library.add(fab, fas);
 
-function Home() {
+function HomeView() {
   let icons = [
     {
       icon: ["fab", "linkedin-in"],
@@ -68,4 +68,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeView;
