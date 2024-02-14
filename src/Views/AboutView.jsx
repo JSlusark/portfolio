@@ -39,10 +39,13 @@ function About() {
           </p>
         </div>
         <div className="text-left mt-5 mb-10">
+          <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
+            hello
+          </button>
           <a
             href={cv}
             download
-            className=" hover:bg-custom-red text-white font-bold py-2 px-4 rounded w-40"
+            className=" text-white font-bold py-2 px-4 rounded w-40"
           >
             Download CV
           </a>

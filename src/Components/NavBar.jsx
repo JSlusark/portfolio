@@ -12,7 +12,7 @@ export default function NavBar({ navigateToPage }) {
 
   // Main return for the NavBar component
   return (
-    <header className="bg-transparent md:bg-indigo-950  fixed w-full top-0 z-5">
+    <header className="bg-transparent md:bg-slate-900  fixed w-full top-0 z-5">
       <nav className="mx-auto flex justify-between p-5 " aria-label="Global">
         {/* large screens menu */}
         <div className="hidden md:flex gap-x-12 ml-auto">
@@ -20,7 +20,7 @@ export default function NavBar({ navigateToPage }) {
             return (
               <Link
                 to={pageName.toLowerCase()}
-                className="text-lg font-semibold  text-indigo-300 hover:text-custom-red"
+                className="text-lg font-semibold  text-stone-200 hover:text-custom-red"
               >
                 {pageName}
               </Link>
@@ -30,7 +30,7 @@ export default function NavBar({ navigateToPage }) {
             href="mailto:slusark.jessica@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="text-lg font-semibold  text-indigo-300 hover:text-custom-red"
+            className="text-lg font-semibold  text-stone-200 hover:text-custom-red"
           >
             Contact
           </a>
