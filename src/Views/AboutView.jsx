@@ -42,7 +42,7 @@ function About() {
           <a
             href={cv}
             download
-            className=" text-white font-bold py-2 px-4 rounded w-40 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:bg-violet-300"
+            className=" text-white font-bold py-2 px-4 rounded w-40 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 "
           >
             Download CV
           </a>

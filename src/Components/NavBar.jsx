@@ -3,7 +3,7 @@ import { Dialog } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar({ navigateToPage }) {
   // State variable for mobile menu open/close status.
@@ -18,19 +18,23 @@ export default function NavBar({ navigateToPage }) {
         <div className="hidden md:flex gap-x-12 ml-auto">
           {menuItems.map((pageName) => {
             return (
-              <Link
+              <NavLink
                 to={pageName.toLowerCase()}
-                className="text-lg font-semibold  text-stone-200 hover:text-indigo-400 active:text-indigo-700 focus:outline-none focus:text-indigo-600"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-lg font-semibold  text-purple-400 "
+                    : "text-lg font-semibold  text-stone-200 hover:text-purple-400  active:text-violet-500"
+                }
               >
                 {pageName}
-              </Link>
+              </NavLink>
             );
           })}
           <a
             href="mailto:slusark.jessica@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="text-lg font-semibold  text-stone-200 hover:text-indigo-400 active:text-indigo-700 focus:outline-none focus:text-indigo-600"
+            className="text-lg font-semibold  text-stone-200 hover:text-purple-400  "
           >
             Contact
           </a>
@@ -68,7 +72,7 @@ export default function NavBar({ navigateToPage }) {
               <div className="mt-6 flow-root">
                 {menuItems.map((pageName) => {
                   return (
-                    <Link
+                    <NavLink
                       to={pageName.toLowerCase()}
                       onClick={() => {
                         setMobileMenuOpen(false);
@@ -76,7 +80,7 @@ export default function NavBar({ navigateToPage }) {
                       className="block rounded-lg px-3 py-2 font-semibold leading-7 text-gray-900 hover:bg-gray-100"
                     >
                       {pageName}
-                    </Link>
+                    </NavLink>
                   );
                 })}
                 <a

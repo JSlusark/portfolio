@@ -32,7 +32,7 @@ function HomeView() {
           window.open(item.link, "_blank");
         }}
         href={`${item.link}`}
-        className="text-violet-500 hover:text-violet-600 active:text-violet-700 focus:outline-none focus:text-violet-300	"
+        className="text-violet-600 hover:text-violet-400 active:text-violet-700"
       >
         <FontAwesomeIcon
           icon={item.icon}

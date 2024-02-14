@@ -3,7 +3,6 @@ import NavBar from "./Components/NavBar";
 import HomeView from "./Views/HomeView";
 import About from "./Views/AboutView";
 import Work from "./Views/WorkView";
-import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
