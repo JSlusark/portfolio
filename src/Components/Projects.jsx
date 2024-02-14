@@ -9,7 +9,7 @@ export default function Projects({ project, onSelected, selectedProjectId }) {
       className={` p-2 m-2
       ${
         project.id === selectedProjectId
-          ? "bg-indigo-600"
+          ? "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
           : "bg-transparent border-1 border-indigo-950  hover:bg-indigo-950"
       }`}
       onClick={() => onSelected(project.id)}

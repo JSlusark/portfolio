@@ -7,7 +7,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App bg-slate-900 text-stone-200 ">
+    <div
+      className="App
+   bg-gradient-to-t from-indigo-950 from-10%  to-slate-900 to-90%
+    text-stone-200 "
+    >
       <BrowserRouter>
         <NavBar />
         <Routes>
