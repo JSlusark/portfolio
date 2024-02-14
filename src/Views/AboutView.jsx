@@ -5,7 +5,7 @@ function About() {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center min-h-screen text-gray-800 p-20"
+      className="flex flex-col items-center justify-center min-h-screen p-20"
     >
       <div className="max-w-4xl px-10">
         <h1 className="text-8xl font-bold mb-10 w-full text-center">
@@ -39,13 +39,10 @@ function About() {
           </p>
         </div>
         <div className="text-left mt-5 mb-10">
-          <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
-            hello
-          </button>
           <a
             href={cv}
             download
-            className=" text-white font-bold py-2 px-4 rounded w-40"
+            className=" text-white font-bold py-2 px-4 rounded w-40 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:bg-violet-300"
           >
             Download CV
           </a>
