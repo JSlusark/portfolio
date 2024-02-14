@@ -19,14 +19,14 @@ function Work() {
   };
 
   return (
-    <div id="work" className=" min-h-screen">
-      <div className="pt-12">
-        <h1 className=" text-8xl font-bold mb-10 w-full text-center">Work</h1>
-        <div className="grid grid-cols-5">
-          <div className="col-span-2">
+    <div id="work" className="h-screen">
+      <div className="pt-12 mx-20">
+        <div className="grid grid-cols-4">
+          <div className="col-span-1 max-h-80 overflow-y-auto bg-white rounded-md  scrollbar">
             {projectsData.map((project, key) => {
               return (
                 <Projects
+                  className="overscroll-contain"
                   key={project.id}
                   project={project}
                   selectedProjectId={selectedProjectData.id}

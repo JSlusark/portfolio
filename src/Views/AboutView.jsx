@@ -8,9 +8,6 @@ function About() {
       className="flex flex-col items-center justify-center min-h-screen p-20"
     >
       <div className="max-w-4xl px-10">
-        <h1 className="text-8xl font-bold mb-10 w-full text-center">
-          About Me
-        </h1>
         <div className="text-lg text-left space-y-4">
           <p>
             While growing up, I was consistently drawn to gaming, digital art,

@@ -22,8 +22,8 @@ export default function NavBar({ navigateToPage }) {
                 to={pageName.toLowerCase()}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-lg font-semibold  text-purple-400 "
-                    : "text-lg font-semibold  text-stone-200 hover:text-purple-400  active:text-violet-500"
+                    ? "text-xl font-semibold  text-purple-400 "
+                    : "text-xl font-semibold  text-stone-200 hover:text-purple-400  active:text-violet-500"
                 }
               >
                 {pageName}
@@ -34,7 +34,7 @@ export default function NavBar({ navigateToPage }) {
             href="mailto:slusark.jessica@gmail.com"
             target="_blank"
             rel="noreferrer"
-            className="text-lg font-semibold  text-stone-200 hover:text-purple-400  "
+            className="text-xl font-semibold  text-stone-200 hover:text-purple-400  "
           >
             Contact
           </a>

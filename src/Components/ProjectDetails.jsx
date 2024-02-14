@@ -5,7 +5,7 @@ import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 export default function ProjectDetails({ selectedProject }) {
   console.log(selectedProject.img);
   return (
-    <div>
+    <div className=" px-10 ">
       <img
         // src={`${process.env.PUBLIC_URL}/img/${selectedProject.img}.png`}
         src={require(`../img/${selectedProject.img}.png`)}
