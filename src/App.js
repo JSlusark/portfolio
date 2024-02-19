@@ -7,20 +7,22 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div
-      className="App
-   bg-gradient-to-t from-indigo-950 from-10%  to-slate-900 to-90%
-    text-stone-200 "
-    >
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/portfolio" Component={HomeView} />
-          <Route path="/home" Component={HomeView} />
-          <Route path="/work" Component={Work} />
-          <Route path="/about" Component={About} />
-        </Routes>
-      </BrowserRouter>
+    <div className="App text-stone-200 flex ">
+      <div className="bg-gradient-to-b from-slate-900 fixed w-full h-full top-0 z-0">
+        {/* this was added to maintain gradient as a background while bounce scroll is active */}
+      </div>
+      <div className="z-20 w-full ">
+        <BrowserRouter>
+          <NavBar />
+
+          <Routes>
+            <Route path="/portfolio" Component={HomeView} />
+            <Route path="/home" Component={HomeView} />
+            <Route path="/work" Component={Work} />
+            <Route path="/about" Component={About} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

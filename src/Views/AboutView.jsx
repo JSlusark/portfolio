@@ -3,10 +3,7 @@ import cv from "../documents/CV-Jessica_slusark.pdf";
 
 function About() {
   return (
-    <div
-      id="about"
-      className="flex flex-col items-center justify-center min-h-screen p-20"
-    >
+    <div id="about" className="flex flex-col items-center justify-center">
       <div className="max-w-4xl px-10">
         <div className="text-lg text-left space-y-4">
           <p>
