@@ -12,7 +12,7 @@ export default function NavBar({ navigateToPage }) {
 
   // Main return for the NavBar component
   return (
-    <nav className="mx-auto flex justify-between py-10 " aria-label="Global">
+    <nav className=" justify-between fixed p-10 w-screen" aria-label="Global">
       {/* large screens menu */}
       <div className="hidden md:flex gap-x-12 ml-auto">
         {menuItems.map((pageName) => {
@@ -57,7 +57,7 @@ export default function NavBar({ navigateToPage }) {
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}
         >
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 min-w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <button
                 type="button"

@@ -32,38 +32,34 @@ function HomeView() {
           window.open(item.link, "_blank");
         }}
         href={`${item.link}`}
-        className="text-violet-600 hover:text-violet-400 active:text-violet-700"
+        className="text-violet-600 hover:text-violet-400 active:text-violet-700  "
       >
-        <FontAwesomeIcon
-          icon={item.icon}
-          className="text-4xl p-4 md:p-0 md:text-5xl md:ml-6 mr-0"
-        />
+        <FontAwesomeIcon icon={item.icon} className=" " />
       </a>
     );
   });
 
   return (
-    <div
-      id="home"
-      className="flex flex-col items-center justify-center min-h-screen px-4"
-    >
-      <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
+    <div id="home" className=" ">
+      <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-7 ">
         <img
           src={profilepic}
           alt="Jess's Avatar"
-          className="rounded-full h-52 w-52 md:h-64 md:w-64"
+          className="rounded-full w-56 md:h-96 md:w-96"
         />
-        <div className="text-center md:text-left text-indigo-100">
+        <div className="text-center space-y-7 md:space-y-0 md:text-left text-indigo-100 ">
           <h1 className="text-5xl md:text-8xl font-bold">Jessica</h1>
           <h1 className="text-5xl md:text-8xl font-bold">Slusark</h1>
-          <h2 className="text-sm pl-1  text-left md:text-3xl  text-indigo-300">
+          <h2 className="text-lg pl-1  text-left md:text-3xl  text-indigo-300">
             Front end developer<span className="hidden md:inline"></span>
-            <br className="md:hidden" /> {""}
-            based in Berlin
+            <br className="md:hidden" />
+            <div className="text-center md:text-left">based in Berlin</div>
           </h2>
+          <div className="md:text-6xl pl-1 md:pt-8 space-x-7">
+            {renderIcons}
+          </div>
         </div>
       </div>
-      <div className="flex md:justify-start mt-0">{renderIcons}</div>
     </div>
   );
 }
