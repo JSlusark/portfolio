@@ -16,3 +16,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* @layer components {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #2b2a65;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #818cf8;
+    border-radius: 100vh;
+    border: 3px solid #2b2a65;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+
+  }
+
+  .flip-container {
+    transform: scaleX(-1);
+    overflow-y: auto;
+  }
+
+
+  .flip-container > * {
+    transform: scaleX(-1);
+  }
+} */

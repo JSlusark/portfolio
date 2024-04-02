@@ -3,8 +3,11 @@ import cv from "../documents/CV-Jessica_slusark.pdf";
 
 function About() {
   return (
-    <div id="about" className="flex flex-col items-center justify-center">
-      <div className="max-w-4xl px-10">
+    <div
+      id="about"
+      className=" flex h-32 overflow-auto mt-92  items-center justify-center w-screen "
+    >
+      {/* <div className="max-w-4xl px-10">
         <div className="text-lg text-left space-y-4">
           <p>
             While growing up, I was consistently drawn to gaming, digital art,
@@ -84,7 +87,7 @@ function About() {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
