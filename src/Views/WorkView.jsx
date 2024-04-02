@@ -24,7 +24,7 @@ function Work() {
         className="grid grid-cols-4 bg-violet-200 rounded-xl"
         style={{ height: "500px", width: "1000px" }}
       >
-        <div className="col-span-1 rounded-md px-10 scrollbar flip-container overflow-scroll py-8">
+        <div className="col-span-1 text-left pl-10 space-y-7 rounded-md px-10 scrollbar flip-container overflow-scroll py-8">
           {projectsData.map((project, key) => {
             return (
               <Projects

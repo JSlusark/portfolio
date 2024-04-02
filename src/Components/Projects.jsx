@@ -7,7 +7,7 @@ export default function Projects({ project, onSelected, selectedProjectId }) {
   return (
     <div>
       <button
-        className={` p-2 w-64 my-1 rounded
+        className={`
       ${
         project.id === selectedProjectId
           ? //? "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 "

@@ -77,7 +77,7 @@
     "img": "meal1",
     "name": "Plate shuffle",
     "description": "Plate Shuffle is a mobile app built with React Native and TypeScript, utilizing Expo for development and testing. It offers a dynamic selection of meals with the option to refresh the list randomly, view recipes, and ingredients. The app includes image placeholders for robustness and supports both emulator and device testing.",
-    "github": "https://github.com/JSlusark/meet",
+    "github": "",
     "link": "https://drive.google.com/file/d/1LJKQLYON_HH2AsNcJGwlDHBXRwXaDM9H/view",
     "hashtags": ["react-native", "typescript", "javascript", "expo"]
   }
