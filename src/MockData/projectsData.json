@@ -3,7 +3,7 @@
     "id": 0,
     "img": "pkdx",
     "name": "Pokedex App",
-    "description": "A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.A simple Pokedéx app made with HTML, CSS, and JavaScript. A list of Pokemón is loaded from PokéAPI , and enables the user to view details for each Pokémon.",
+    "description": "This project emulates a classic pokedex interface using fundamental HTML, CSS, and JavaScript. It intentionally mirrors the aesthetic of early javascript games as a fun exercise. The pokedex fetches and displays a simple list of pokemon from the PokéAPI and displays each's names, type, and height.",
     "github": "https://github.com/JSlusark/Pokedex",
     "link": "https://jslusark.github.io/Pokedex/",
     "hashtags": ["html", "css", "javascript", "jquery", "bootstrap"]
@@ -11,9 +11,9 @@
 
   {
     "id": 1,
-    "img": "api",
+    "img": "api_screen",
     "name": "My Movie List API",
-    "description": "REST API for a movie application called Movie Flix that interacts with a database that stores data about different movies.",
+    "description": "This REST API is tailored for the \"My Movie List\" app, available in both React and Angular versions. It manages a database that holds user registration data along with information on a select number of movies",
     "github": "https://github.com/JSlusark/Movie-API",
     "link": "https://shrouded-ocean-05047.herokuapp.com/",
     "hashtags": [
@@ -30,7 +30,7 @@
     "id": 2,
     "img": "mml_react",
     "name": "My Movie List (React)",
-    "description": "Single-page, responsive movie application which gives information about different movies, directors, and genres. Users are able to sign up, update their personal information, and add movies to their favorite list.",
+    "description": "This is a responsive, single-page movie application built with React and Bootstrap, configured from the ground up alongside Express, without using create-react-app. It integrates user registration and authentication through Passport, providing details on movies, directors, and genres. Features include user sign-up, profile customization, and the ability to curate a favorites list.",
     "github": "https://github.com/JSlusark/MyFlix-client",
     "link": "https://mymovielistj.netlify.app/login",
     "hashtags": ["react", "node.js", "express", "parcel", "react-bootstrap"]
@@ -39,7 +39,7 @@
     "id": 3,
     "img": "mml_ang",
     "name": "My Movie List (Angular)",
-    "description": "Single-page, responsive movie application which gives information about different movies, directors, and genres. Users are able to sign up, update their personal information, and add movies to their favorite list.",
+    "description": "An Angular-based version of the \"My Movie List\" app offers similar functionalities as its React counterpart. This app was designed to be much simpler as it was mainly developed to understand basic principles of Angular, Angular Material, and TypeScript.",
     "github": "https://github.com/JSlusark/myFlix-Angular-client",
     "link": "https://jslusark.github.io/myFlix-Angular-client/",
     "hashtags": ["angular", "node.js", "angular-material"]
@@ -48,7 +48,7 @@
     "id": 4,
     "img": "chatapp",
     "name": "ChatApp!",
-    "description": "A chat application for mobile devices that provides users with a chat interface and options to communicate, share images and their location.",
+    "description": "The app is a mobile chat platform built with React Native, allowing personalization through username and background color selection. Users can chat, exchange images, and share their location. Firebase is integrated for backend services and storage.",
     "github": "https://github.com/JSlusark/chat",
     "link": "https://github.com/JSlusark/chat",
     "hashtags": ["react", "react-native", "expo", "firebase"]
@@ -58,13 +58,13 @@
     "id": 5,
     "img": "mapp",
     "name": "Meet App",
-    "description": "The Meet App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
+    "description": "The Meet App allows users to load a list of Career Foundry events and filter the result by city. It features interactive data visualization created with Recharts for a quick overview of events per city and genre. Jest was used to perform basic testing and improve the app's reliability.",
     "github": "https://github.com/JSlusark/meet",
     "link": "https://jslusark.github.io/meet/",
     "hashtags": [
-      "react",
+      "react-create-app",
       "css",
-      "jest",
+      "jest-cucumber",
       "puppeteer",
       "atatus",
       "lighthouse",
@@ -74,109 +74,11 @@
 
   {
     "id": 6,
-    "img": "meetapp",
-    "name": "1",
-    "description": "The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city. The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
+    "img": "meal1",
+    "name": "Plate shuffle",
+    "description": "Plate Shuffle is a mobile app built with React Native and TypeScript, utilizing Expo for development and testing. It offers a dynamic selection of meals with the option to refresh the list randomly, view recipes, and ingredients. The app includes image placeholders for robustness and supports both emulator and device testing.",
     "github": "https://github.com/JSlusark/meet",
-    "link": "https://jslusark.github.io/meet/",
-    "hashtags": [
-      "react",
-      "css",
-      "jest-cucumber",
-      "puppeteer",
-      "atatus",
-      "lighthouse",
-      "recharts"
-    ]
-  },
-  {
-    "id": 7,
-    "img": "meetapp",
-    "name": "2",
-    "description": "The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city. The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
-    "github": "https://github.com/JSlusark/meet",
-    "link": "https://jslusark.github.io/meet/",
-    "hashtags": [
-      "react",
-      "create-react-app",
-      "css",
-      "jest-cucumber",
-      "puppeteer",
-      "atatus",
-      "lighthouse",
-      "recharts"
-    ]
-  },
-  {
-    "id": 8,
-    "img": "meetapp",
-    "name": "Additional",
-    "description": "The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city. The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
-    "github": "https://github.com/JSlusark/meet",
-    "link": "https://jslusark.github.io/meet/",
-    "hashtags": [
-      "react",
-      "create-react-app",
-      "css",
-      "jest-cucumber",
-      "puppeteer",
-      "atatus",
-      "lighthouse",
-      "recharts"
-    ]
-  },
-  {
-    "id": 9,
-    "img": "meetapp",
-    "name": "Additional",
-    "description": "The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city. The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
-    "github": "https://github.com/JSlusark/meet",
-    "link": "https://jslusark.github.io/meet/",
-    "hashtags": [
-      "react",
-      "create-react-app",
-      "css",
-      "jest-cucumber",
-      "puppeteer",
-      "atatus",
-      "lighthouse",
-      "recharts"
-    ]
-  },
-  {
-    "id": 10,
-    "img": "meetapp",
-    "name": "Additional",
-    "description": "The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city. The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
-    "github": "https://github.com/JSlusark/meet",
-    "link": "https://jslusark.github.io/meet/",
-    "hashtags": [
-      "react",
-      "create-react-app",
-      "css",
-      "jest-cucumber",
-      "puppeteer",
-      "atatus",
-      "lighthouse",
-      "recharts"
-    ]
-  },
-  {
-    "id": 11,
-    "img": "meetapp",
-    "name": "Additional",
-    "description": "The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city. The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.The poo App allows users to search for a city and get a list of events for Full-Stack Developers hosted in that city.",
-    "github": "https://github.com/JSlusark/meet",
-    "link": "https://jslusark.github.io/meet/",
-    "hashtags": [
-      "react",
-      "create-react-app",
-      "css",
-      "jest-cucumber",
-      "puppeteer",
-      "atatus",
-      "lighthouse",
-      "recharts"
-    ]
+    "link": "https://drive.google.com/file/d/1LJKQLYON_HH2AsNcJGwlDHBXRwXaDM9H/view",
+    "hashtags": ["react-native", "typescript", "javascript", "expo"]
   }
 ]
