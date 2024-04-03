@@ -14,7 +14,7 @@ export default function ProjectDetails({ selectedProject }) {
           <a
             href={selectedProject.link}
             target="_blank"
-            className=" text-white font-bold text-md rounded text-violet-400 hover:text-violet-600 active:text-violet-700 "
+            className="font-bold text-md rounded text-violet-400 hover:text-violet-600 active:text-violet-700 "
             rel="noreferrer"
           >
             <FontAwesomeIcon
@@ -26,7 +26,7 @@ export default function ProjectDetails({ selectedProject }) {
           <a
             href={selectedProject.github}
             target="_blank"
-            className=" text-white font-bold text-md rounded text-violet-400 hover:text-violet-600 active:text-violet-700 "
+            className="font-bold text-md rounded text-violet-400 hover:text-violet-600 active:text-violet-700 "
             rel="noreferrer"
           >
             <FontAwesomeIcon
