@@ -1,5 +1,6 @@
 import React from "react";
 import cv from "../documents/CV-Jessica_slusark.pdf";
+import Timeline from "../Components/Timeline";
 
 function About() {
   return (
@@ -21,6 +22,7 @@ function About() {
               shift to Software engineering in 2023. My journey can be observed
               from the timeline and CV below.
             </p>
+            <Timeline />
             <a
               href={cv}
               download

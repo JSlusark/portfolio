@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "date": "Mar 2024",
+    "event": "42 Berlin",
+    "description": "Attended an intense 1-month selection process known as \"La Piscine\"."
+  },
+  {
+    "id": 1,
+    "date": "Jan - Jul 2023",
+    "event": "CareerFoundry",
+    "description": "Graduated in fullstack development."
+  },
+  {
+    "id": 2,
+    "date": "2015-2022",
+    "event": "Unity and more",
+    "description": "Managing partnerships at Unity, GameAnalitics, Playtestcloud, SensorTower."
+  },
+  {
+    "id": 3,
+    "date": "2019-2020",
+    "event": "Freelance artist",
+    "description": "Providing services to game developers and small publishing companies."
+  }
+]
