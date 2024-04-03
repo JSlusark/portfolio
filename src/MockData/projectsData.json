@@ -1,33 +1,6 @@
 [
   {
     "id": 0,
-    "img": "pkdx",
-    "name": "Pokedex App",
-    "description": "This project emulates a classic pokedex interface using fundamental HTML, CSS, and JavaScript. It intentionally mirrors the aesthetic of early javascript games as a fun exercise. The pokedex fetches and displays a simple list of pokemon from the PokéAPI and displays each's names, type, and height.",
-    "github": "https://github.com/JSlusark/Pokedex",
-    "link": "https://jslusark.github.io/Pokedex/",
-    "hashtags": ["html", "css", "javascript", "jquery", "bootstrap"]
-  },
-
-  {
-    "id": 1,
-    "img": "api_screen",
-    "name": "My Movie List API",
-    "description": "This REST API is tailored for the \"My Movie List\" app, available in both React and Angular versions. It manages a database that holds user registration data along with information on a select number of movies",
-    "github": "https://github.com/JSlusark/Movie-API",
-    "link": "https://shrouded-ocean-05047.herokuapp.com/",
-    "hashtags": [
-      "javaScript",
-      "mongoDB",
-      "express",
-      "node.js",
-      "postman",
-      "postgreSQL",
-      "mongoose"
-    ]
-  },
-  {
-    "id": 2,
     "img": "mml_react",
     "name": "My Movie List (React)",
     "description": "This is a responsive, single-page movie application built with React and Bootstrap, configured from the ground up alongside Express, without using create-react-app. It integrates user registration and authentication through Passport, providing details on movies, directors, and genres. Features include user sign-up, profile customization, and the ability to curate a favorites list.",
@@ -36,7 +9,7 @@
     "hashtags": ["react", "node.js", "express", "parcel", "react-bootstrap"]
   },
   {
-    "id": 3,
+    "id": 1,
     "img": "mml_ang",
     "name": "My Movie List (Angular)",
     "description": "An Angular-based version of the \"My Movie List\" app offers similar functionalities as its React counterpart. This app was designed to be much simpler as it was mainly developed to understand basic principles of Angular, Angular Material, and TypeScript.",
@@ -45,7 +18,7 @@
     "hashtags": ["angular", "node.js", "angular-material"]
   },
   {
-    "id": 4,
+    "id": 2,
     "img": "chatapp",
     "name": "ChatApp!",
     "description": "The app is a mobile chat platform built with React Native, allowing personalization through username and background color selection. Users can chat, exchange images, and share their location. Firebase is integrated for backend services and storage.",
@@ -55,7 +28,7 @@
   },
 
   {
-    "id": 5,
+    "id": 3,
     "img": "mapp",
     "name": "Meet App",
     "description": "The Meet App allows users to load a list of Career Foundry events and filter the result by city. It features interactive data visualization created with Recharts for a quick overview of events per city and genre. Jest was used to perform basic testing and improve the app's reliability.",
@@ -73,12 +46,39 @@
   },
 
   {
-    "id": 6,
+    "id": 4,
     "img": "meal1",
     "name": "Plate shuffle",
     "description": "Plate Shuffle is a mobile app built with React Native and TypeScript, utilizing Expo for development and testing. It offers a dynamic selection of meals with the option to refresh the list randomly, view recipes, and ingredients. The app includes image placeholders for robustness and supports both emulator and device testing.",
     "github": "",
     "link": "https://drive.google.com/file/d/1LJKQLYON_HH2AsNcJGwlDHBXRwXaDM9H/view",
     "hashtags": ["react-native", "typescript", "javascript", "expo"]
+  },
+  {
+    "id": 5,
+    "img": "pkdx",
+    "name": "Pokedex App",
+    "description": "This project emulates a classic pokedex interface using fundamental HTML, CSS, and JavaScript. It intentionally mirrors the aesthetic of early javascript games as a fun exercise. The pokedex fetches and displays a simple list of pokemon from the PokéAPI and displays each's names, type, and height.",
+    "github": "https://github.com/JSlusark/Pokedex",
+    "link": "https://jslusark.github.io/Pokedex/",
+    "hashtags": ["html", "css", "javascript", "jquery", "bootstrap"]
+  },
+
+  {
+    "id": 6,
+    "img": "api_screen",
+    "name": "My Movie List API",
+    "description": "This REST API is tailored for the \"My Movie List\" app, available in both React and Angular versions. It manages a database that holds user registration data along with information on a select number of movies",
+    "github": "https://github.com/JSlusark/Movie-API",
+    "link": "https://shrouded-ocean-05047.herokuapp.com/",
+    "hashtags": [
+      "javaScript",
+      "mongoDB",
+      "express",
+      "node.js",
+      "postman",
+      "postgreSQL",
+      "mongoose"
+    ]
   }
 ]
