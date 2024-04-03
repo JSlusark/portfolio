@@ -3,91 +3,62 @@ import cv from "../documents/CV-Jessica_slusark.pdf";
 
 function About() {
   return (
-    <div
-      id="about"
-      className=" flex h-32 overflow-auto mt-92  items-center justify-center w-screen "
-    >
-      {/* <div className="max-w-4xl px-10">
-        <div className="text-lg text-left space-y-4">
-          <p>
-            While growing up, I was consistently drawn to gaming, digital art,
-            and the creation of my own digital experiences. This ranged from
-            personalizing blogs to designing graphics and crafting my own games
-            using tools like RPG Maker and Ren'Py.
-          </p>
-          <p>
-            My passion for tech naturally led me into a career where I
-            collaborated closely with developers, supporting and guiding their
-            endeavors with data insights, advertising solutions, trend analysis,
-            and user experience practices. My strength lies in effectively
-            communicating and understanding the development landscape, which
-            propelled my career as a tech sales executive. However, as I delved
-            deeper into my profession, I realized that my true interest was in
-            the development of the services I sold, understanding how they were
-            constructed and considering how they could be improved. This
-            realization inspired me to shift my focus towards becoming a web
-            developer.
-          </p>
-          <p>
-            After gaining some foundational knowledge from online resources and
-            a part-time introductory course at SheCodes, I fully committed to my
-            new path by enrolling in a comprehensive 6-month Full-Stack web
-            development program at CareerFoundry.
-          </p>
-        </div>
-        <div className="text-left mt-5 mb-10">
-          <a
-            href={cv}
-            download
-            className=" text-white font-bold py-2 px-4 rounded w-40 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 "
-          >
-            Download CV
-          </a>
-        </div>
-
-        <div className="grid grid-cols-1 w-full md:grid-cols-2">
-          <div className="text-left p-8">
-            <h2 className="text-2xl font-semibold mb-3">Skills</h2>
-            <div className="">
-              <p className="font-semibold">Front-End:</p>
-              <p className=" mb-2">
-                HTML, CSS, Bootstrap, JavaScript, React.js / CRA, React Native,
-                Angular, Angular Material, jQuery, React Bootstrap
-              </p>
-
-              <p className="font-semibold">Back-End:</p>
-              <p className=" mb-2">Node.js, Express, RESTful API</p>
-
-              <p className="font-semibold">Testing & Debugging:</p>
-              <p className=" mb-2">Jest, Cucumber, Puppeteer</p>
-              <p className="font-semibold">Tools:</p>
-              <p className=" mb-2">
-                Expo, Google Lighthouse, Recharts, Atatus, Parcel, Postman, Git,
-                Github
-              </p>
-              <p className="font-semibold">Databases:</p>
-              <p className=" mb-2">MongoDB, PostgreSQL, Mongoose, SQL</p>
-            </div>
+    <div className="text-purple-50 ">
+      <div className=" grid pt-14" style={{ height: "750px" }}>
+        <div className="overflow-scroll px-10 space-y-10">
+          <div className="text-left scrollbar">
+            <p>
+              While growing up I was often exposed to technology. Commodore 64
+              was my first love and from there it followed a life of
+              videogaming, mastering Photoshop graphical skills, creating blogs
+              and daydreaming about creating my first visual novel game in
+              Renpy. My curiosity towards tech led me to a career into mobile
+              gaming, where I would lead and advise mobile game companies on
+              optimizing their projects with various products and services
+              (analytics, game engines, in-game advertising methods, art assets,
+              playtesting etc..). During this time I learnt a lot about game and
+              app development, my fascination grew until it culminated in a
+              shift to Software engineering in 2023. My journey can be observed
+              from the timeline and CV below.
+            </p>
+            <a
+              href={cv}
+              download
+              className=" text-white font-bold py-2 px-4 rounded w-40 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 "
+            >
+              Download CV
+            </a>
           </div>
-          <div className="text-left mt-8 ml-10">
+
+          <div className="col-span-2 text-left  ">
+            <h2 className="text-2xl font-semibold mb-3">Skills</h2>
+            <p className="font-semibold">Main stack:</p>
+            <p className=" mb-2">
+              JavaScript, Bootstrap, React, node.js, Express, REST, Jest, Git
+            </p>
+            <p className="font-semibold">Can also use with confidence:</p>
+            <p className=" mb-2"> React Native, Expo, Tailwind, Postman </p>
+            <p className="font-semibold">Familiar with:</p>
+            <p className=" mb-2">
+              C, Typescript, Python, MongoDB, PostgreSQL, SQL, Sass
+            </p>
+          </div>
+          <div className="col-span-2 text-left ">
             <h2 className="text-2xl font-semibold">
               On my free time I like to..
             </h2>
             <ul className="p-8">
               <li className=" mb-2">👾 Play videogames</li>
-              <li className=" mb-2">✏️ Draw and make creative stuff</li>
-              <li className=" mb-2">👩🏻‍🎤 Read manga and watch anime</li>
-              <li className=" mb-2">🐱 Relax with my cats</li>
+              <li className=" mb-2">✏️ Draw and share creative stuff here </li>
               <li className=" mb-2">
-                🛼 Rollerskate, lift weights and do sports
+                📖 Learn some new skills and find new hobbies
               </li>
-              <li className=" mb-2">
-                ✨ Learn new things and find new hobbies
-              </li>
+              <li className=" mb-2">🐱 Relax on the sofa with my cats</li>
+              <li className=" mb-2">🏋️ Lift weights and do aerial sports</li>
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

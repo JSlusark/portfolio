@@ -14,7 +14,7 @@ function App() {
       <div className="z-20 w-full">
         <BrowserRouter>
           <NavBar />
-          {/* need to make the content inside about scrollable scrollable*/}
+          {/* need to make the content inside about scrollable */}
           <div className=" flex items-center justify-center h-screen ">
             <Routes>
               <Route path="/portfolio" Component={HomeView} />
