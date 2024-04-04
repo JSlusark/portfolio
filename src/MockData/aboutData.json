@@ -1,0 +1,17 @@
+{
+  "about": "While growing up I was often exposed to technology. Commodore 64 was my first love and from there it followed a life of videogaming, mastering Photoshop graphical skills, creating blogs and daydreaming about creating my first visual novel game in Renpy. My curiosity towards tech led me to a career into mobile gaming, where I would lead and advise mobile game companies on optimizing their projects with various products and services (analytics, game engines, in-game advertising methods, art assets, playtesting etc..). During this time I learnt a lot about game and app development, my fascination grew until it culminated in a shift to Software engineering in 2023. My journey can be observed from the timeline and CV below.",
+  "skills": [
+    {
+      "main": "JavaScript, Bootstrap, React, node.js, Express, REST, Jest, Git",
+      "secondary": "React Native, Expo, Tailwind, Postman",
+      "familiarity": "C, Typescript, Python, MongoDB, PostgreSQL, SQL, Sass"
+    }
+  ],
+  "hobbies": [
+    "👾 Play videogames",
+    "✏️ Draw and share creative stuff here",
+    "📖 Learn some new skills and find new hobbies",
+    "🐱 Relax on the sofa with my cats",
+    "🏋️ Lift weights and do aerial sports"
+  ]
+}
